@@ -1,0 +1,14 @@
+package org.practice;
+
+public class ThisSample {
+String name="";
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void method(String name) {
+		this.name=name;
+	}
+
+}

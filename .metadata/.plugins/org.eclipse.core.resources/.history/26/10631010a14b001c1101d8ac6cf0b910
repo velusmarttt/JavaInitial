@@ -1,0 +1,21 @@
+package org.practice;
+
+public class Practical {
+	public static void main(String[] args) {
+		Practical P=new Practical();
+		
+	}
+		
+	
+
+	public void java() {
+		System.out.println("java is a easy programming language");
+	}
+		
+		public void jre() {
+			System.out.println("it can run applications");
+		}
+	}
+
+
+ 

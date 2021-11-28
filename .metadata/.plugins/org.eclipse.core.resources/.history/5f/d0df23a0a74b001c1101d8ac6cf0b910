@@ -1,0 +1,14 @@
+package org.practice;
+
+		public class Practical {
+			public static void main(String[] args) {
+				Practical P=new Practical();
+				P.marks(85);
+			}
+		public void marks(int number) {
+			System.out.println("marks for the practical is"+number);
+		
+	}
+		}
+
+ 

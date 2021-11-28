@@ -1,0 +1,14 @@
+package org.practice;
+
+		public class Practical {
+			
+		public  void java() {
+		System.out.println("it is a simple programming language");
+		}
+		public void jre() {
+			System.out.println("java run time environment");
+		}
+	}
+
+
+ 

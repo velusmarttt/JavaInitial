@@ -1,0 +1,22 @@
+package org.seleniumsample;
+
+import org.openqa.selenium.By.ById;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class GmailSignup {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver","F:\\softwares\\work spaces\\SeleniumOpening\\org.driver\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=SignUp");
+		WebElement txtfrstname=driver.findElement(By.id("firstName"));
+		txtfrstname.sendKeys("velu");
+		
+	}
+	
+
+}

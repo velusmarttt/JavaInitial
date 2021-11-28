@@ -1,0 +1,16 @@
+package org.practice;
+
+	public class Theory extends Practical{
+	public static void main(String[] args) {
+		Theory T=new Theory();
+		T.marks(70);
+	}
+	
+		public void marks(int number) {
+		System.out.println("marks for the practical is"+number);
+		
+		super.marks(85);
+		
+			}
+
+}

@@ -1,0 +1,21 @@
+package org.practiceSessions2;
+
+public class Practices {
+	public static void main(String[] args) {
+		int a=25;int b=78;int c=87;
+		if(a>b&&a>c) {
+		System.out.println("a is greatest");
+	}
+	else if(b>c&&b>a) {
+	System.out.println("b is greatest");
+	}
+	else if (c>b&&c>a) {
+		System.out.println("c is greatest");
+	}
+	else {
+		System.out.println("c is greatest");
+	}
+		
+	}
+
+}

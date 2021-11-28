@@ -1,0 +1,24 @@
+//project:college information
+package org.college;
+
+public class College {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		College Coll=new College();
+		Coll.collegeName();
+		Coll.collegeCode();
+		Coll.collegeRank();
+		
+
+	}
+	private void collegeName() {
+		System.out.println("st.peters");
+	}
+	private void collegeCode() {
+		System.out.println("26597");
+	}
+	private void collegeRank() {
+		System.out.println("2nd rank");
+	}
+}

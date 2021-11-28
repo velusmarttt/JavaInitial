@@ -1,0 +1,35 @@
+package org.practice;
+
+public class Theory implements Practical{
+	public static void main(String[] args) {
+		Theory T=new Theory();
+		T.java();
+		T.jre();
+		T.jvm();
+	}
+
+			@Override
+			public void jdk() {
+				System.out.println("java development kit");
+				
+			}
+
+			@Override
+			public void jvm() {
+				System.out.println("java virtual machine");
+				
+			}
+
+			@Override
+			public void java() {
+				System.out.println("it is a simple programming language");
+				
+			}
+
+			@Override
+			public void jre() {
+				System.out.println("java run time environment");
+				
+			}
+
+}

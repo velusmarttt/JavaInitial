@@ -1,0 +1,20 @@
+package org.practice;
+
+public class Theory extends Practical{
+	public static void main(String[] args) {
+		Theory T=new Theory();
+		T.jdk();
+		T.jvm();
+	}
+	
+		public void jdk() {
+		System.out.println("java development kit");
+		
+		super.java();
+		}
+			public void jvm() {
+				System.out.println("java virtual machine");
+				super.jre();
+			}
+
+}

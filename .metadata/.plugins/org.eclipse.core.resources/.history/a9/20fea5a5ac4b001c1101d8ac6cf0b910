@@ -1,0 +1,28 @@
+package org.practice;
+
+public class ThisSample {
+String name="";
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ThisSample obj=new ThisSample();
+		obj.method("Deekay");
+		obj.displayName();
+		obj.pub();
+
+	}
+	
+	public void method(String name) {
+		name=name;
+	}
+	
+	public void displayName() {
+		
+		System.out.println("The name assigned is "+name);
+	}
+
+	private void pub() {
+		// TODO Auto-generated method stub
+		System.out.println("the name for pub is "+name);
+
+	}
+}

@@ -1,0 +1,22 @@
+package org.practice;
+
+public class Theory extends Practical{
+	public static void main(String[] args) {
+		Theory T=new Theory();
+		T.language();
+		T.maths();
+		T.java();
+		T.jre();
+	}
+		
+		private void language() {
+			System.out.println("way of talking");
+		}
+			private void maths() {
+				System.out.println("it cointains numbers letters and problems");
+			
+		
+		
+	}
+
+}

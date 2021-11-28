@@ -1,0 +1,36 @@
+package org.seleniumsample;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","F:\\softwares\\work spaces\\SeleniumOpening\\org.driver\\chromedriver.exe");
+		WebDriver Drive=new ChromeDriver();
+		Drive.manage().window().maximize();
+		Drive.get("https://www.facebook.com/");
+		//to get the current url
+		String currenturl=Drive.getCurrentUrl();
+		System.out.println(currenturl);
+		//to get the title
+		String title=Drive.getTitle();
+		System.out.println(title);
+	//to find the web element
+		WebElement txtusername=Drive.findElement(By.id("email"));
+		//to enter the web element
+		txtusername.sendKeys("vel.sm78@gmail.com");
+		//to find the web element
+		WebElement txtpassword=Drive.findElement(By.id("terrorthemass"));
+		txtpassword.sendKeys("12768");
+		WebElement buttonlogin=Drive.findElement(By.name("login"));
+		buttonlogin.click(); 
+		
+		
+		
+	}	
+		
+		
+
+}

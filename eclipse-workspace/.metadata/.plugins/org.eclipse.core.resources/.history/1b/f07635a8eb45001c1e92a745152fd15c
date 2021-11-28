@@ -1,0 +1,10 @@
+package org.network;
+
+public class Wifi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

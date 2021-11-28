@@ -1,0 +1,12 @@
+package org.practice;
+
+		public interface Practical {
+			
+		public abstract void java() ;
+		public abstract void jre();
+		public abstract void jdk();
+		public abstract void jvm();
+	}
+
+
+ 

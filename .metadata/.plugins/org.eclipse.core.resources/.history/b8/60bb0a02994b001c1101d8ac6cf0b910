@@ -1,0 +1,18 @@
+package org.seleniumsample;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","F:\\softwares\\work spaces\\SeleniumOpening\\org.driver\\chromedriver.exe");
+		WebDriver Drive=new ChromeDriver();
+		Drive.get("https://www.facebook.com/");
+		//to get the current url
+		String currenturl=Drive.getCurrentUrl();
+		System.out.println(currenturl);
+
+	}
+
+}

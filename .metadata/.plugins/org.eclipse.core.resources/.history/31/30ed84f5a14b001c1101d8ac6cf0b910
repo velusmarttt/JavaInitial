@@ -1,0 +1,16 @@
+package org.practice;
+
+public abstract class Practical {
+	public abstract void java() ;
+		
+		public abstract void jre();
+		public void jdk() {
+			System.out.println("java development kit");
+		}
+		public void jvm() {
+			System.out.println("java virtual machine");
+		}
+	}
+
+
+ 
